@@ -1,0 +1,8 @@
+[project]
+  ignore = .git
+
+[cxx]
+  cc = /usr/local/opt/llvm/bin/clang
+  cxx = /usr/local/opt/llvm/bin/clang++
+  ld = /usr/local/opt/llvm/bin/clang++
+  cxxflags = -std=c++17
